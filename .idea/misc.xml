@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18854166666666666" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18854166666666666" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/drawable/ic_menu_camera.xml" value="0.18854166666666666" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.18854166666666666" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1712962962962963" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/drawable/side_nav_bar.xml" value="0.18854166666666666" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/activity_all_clubs.xml" value="0.1" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/activity_desc.xml" value="0.16666666666666666" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/activity_post_event.xml" value="0.14666666666666667" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/activity_specified_club.xml" value="0.1" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/activity_splash_screen.xml" value="0.12047101449275362" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/content_main.xml" value="0.12" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/fragment_admin.xml" value="0.12545289855072464" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/fragment_club.xml" value="0.1" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/fragment_clubs.xml" value="0.1" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/fragment_completed.xml" value="0.1" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/fragment_gallery.xml" value="0.14666666666666667" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/fragment_ongoing.xml" value="0.13903985507246377" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/listitem.xml" value="0.16666666666666666" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/nav_header_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/menu/activity_main_drawer.xml" value="0.3333333333333333" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/menu/main.xml" value="0.1675925925925926" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18854166666666666" />
+        <entry key="..\:/Curriculum/sem#5/mad#/Event/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

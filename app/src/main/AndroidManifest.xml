@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.event">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Event">
+        <activity
+            android:name=".Specified_Club"
+            android:exported="true"
+            android:label="Specified Club Events"
+            android:parentActivityName=".ui.home.AllClubs"/>
+        <activity
+            android:name=".PostEvent"
+            android:exported="true"
+            android:label="Post Your Event"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ui.home.AllClubs"
+            android:exported="true"
+            android:label="Clubs in College" />
+        <activity
+            android:name=".DescActivity"
+            android:exported="true"
+            android:label="Event Description" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Event.NoActionBar"></activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

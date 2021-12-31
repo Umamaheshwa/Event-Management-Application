@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.AllClubs"
+    android:background="#ccffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@layout/toolbar"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cybersync"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardBackgroundColor="#ffe6e6"
+                        app:cardMaxElevation="6dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true"
+                        android:layout_column="1"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/acme"
+                            android:padding="12dp"
+                            android:text="Cybersync"
+                            android:textSize="20sp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/ieee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardBackgroundColor="#ffe6e6"
+                        app:cardMaxElevation="6dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true"
+                        android:layout_column="2"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+
+
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/acme"
+                            android:padding="12dp"
+                            android:text="IEEE"
+                            android:textSize="20sp" />
+                    </androidx.cardview.widget.CardView>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elecsol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Elecsol"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nirmaan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Nirmaan"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/robotics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Robotics Club"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nrutya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Nrutya"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/raaga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Raaga"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/reflexa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Reflexa"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/finearts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Fine Arts"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/literature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Literature"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/genesis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Genesis"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sports"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Sports"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cultural"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Cultural"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/foss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="FOSS"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vcelot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="VCE LOT"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/campusradio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Campus Radio"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ewb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="EWB"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/books"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Books Club"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/mindsnmove"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Minds and\nMovements"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/abhinaya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Abhinaya"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="NSS"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/deptocse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Dept.Of CSE"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/deptoece"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Dept.Of ECE"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/deptoeee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Dept.Of EEE"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/deptocvl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Dept.Of Civil"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/deptomech"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Dept.Of Mech"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/deptoit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Dept.Of IT"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/acm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="ACM"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="CIE"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardBackgroundColor="#ffe6e6"
+                    app:cardMaxElevation="6dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    android:layout_column="2"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acme"
+                        android:padding="12dp"
+                        android:text="Others"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+
+
+
+        </TableLayout>
+    </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
